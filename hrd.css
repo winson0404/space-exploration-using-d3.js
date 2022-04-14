@@ -1,0 +1,28 @@
+body {
+	padding: 25px;
+	background-color: #696969;
+	color: black;
+}
+
+.selected {
+	opacity: 1 !important;
+	stroke: black;
+	stroke-width: 1px;
+}
+
+div.tooltip {
+	color: white;
+	position: absolute;
+	text-align: center;
+	width: 60px;
+	height: 28px;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: rgba(0,0,0,.8);
+	border: 2px solid black;
+	pointer-events: none;
+}
+  
+.hide {
+	opacity: 0;
+}
